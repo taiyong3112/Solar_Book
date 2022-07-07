@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuHome"
+            android:title="Trang chủ"/>
+        <item
+            android:id="@+id/menuCategory"
+            android:title="Thể loại sách"/>
+        <item
+            android:id="@+id/menuNews"
+            android:title="Tin tức, sự kiện"/>
+    </group>
+
+    <item android:title="Tài khoản">
+        <menu>
+            <item
+                android:id="@+id/menuProfile"
+                android:title="Thông tin của tôi"/>
+            <item
+                android:id="@+id/menuLogout"
+                android:title="Đăng xuất"/>
+        </menu>
+    </item>
+</menu>
